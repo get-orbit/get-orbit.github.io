@@ -81,6 +81,11 @@
             transform: scale(1.2);
         }
 
+        .button:active {
+            transform: scale(0.9);
+        }
+
+
         @media (max-width: 768px) {
             .title, .text, .topbartitle {
                 font-size: 3vw;
